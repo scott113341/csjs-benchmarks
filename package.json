@@ -8,6 +8,7 @@
   "homepage": "https://github.com/scott113341/csjs-benchmarks",
   "bugs": "https://github.com/scott113341/csjs-benchmarks/issues",
   "main": "index.js",
+  "private": true,
   "devDependencies": {
     "benchmark": "2.1.0",
     "npm-install-version": "2.0.1"
