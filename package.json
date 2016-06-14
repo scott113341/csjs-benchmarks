@@ -1,0 +1,15 @@
+{
+  "name": "csjs-benchmarks",
+  "version": "0.0.0",
+  "description": "Benchmarking tool for csjs.",
+  "author": "Scott Hardy",
+  "license": "MIT",
+  "repository": "git@github.com:scott113341/csjs-benchmarks.git",
+  "homepage": "https://github.com/scott113341/csjs-benchmarks",
+  "bugs": "https://github.com/scott113341/csjs-benchmarks/issues",
+  "main": "index.js",
+  "devDependencies": {
+    "benchmark": "2.1.0",
+    "npm-install-version": "2.0.1"
+  }
+}

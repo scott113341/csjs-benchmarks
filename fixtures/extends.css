@@ -1,0 +1,30 @@
+.yolo1 {
+  color: red;
+}
+.yolo2 extends .yolo1 {
+  color: red;
+}
+.yolo3 extends .yolo1 {
+  color: red;
+}
+.yolo4 extends .yolo1 {
+  color: red;
+}
+.yolo5 extends .yolo1 {
+  color: red;
+}
+.yolo6 extends .yolo1 {
+  color: red;
+}
+.yolo7 extends .yolo1 {
+  color: red;
+}
+.yolo8 extends .yolo1 {
+  color: red;
+}
+.yolo9 extends .yolo1 {
+  color: red;
+}
+.yolo10 extends .yolo1 {
+  color: red;
+}
