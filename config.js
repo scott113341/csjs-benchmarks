@@ -11,8 +11,8 @@ module.exports = {
   ],
 
   // specify fixtures you want to run
-  // this.runAll takes precedence
-  runAll: true,
+  // allFixtures == true takes precedence
+  allFixtures: true,
   fixtures: [
     // '10-rules.css',
     // '10000-char-comment.css',

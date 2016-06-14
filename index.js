@@ -10,7 +10,7 @@ config.versions.forEach(version => niv.install(version));
 
 
 fs.readdirSync('fixtures')
-  .filter(file => config.runAll || config.fixtures.includes(file))
+  .filter(file => config.allFixtures || config.fixtures.includes(file))
   .map(file => ({
     name: file,
     suite: makeSuite(),
