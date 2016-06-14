@@ -7,7 +7,7 @@ module.exports = {
     // 'csjs@1.0.2',
     // 'csjs@1.0.3',
     'csjs@1.0.4',
-    ['https://github.com/scott113341/csjs/tarball/extract-extends-performance', 'scott113341@extract-extends-performance'],
+    'scott113341/csjs#extract-extends-performance',
   ],
 
   // specify fixtures you want to run

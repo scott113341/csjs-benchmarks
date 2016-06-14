@@ -6,12 +6,7 @@ const path = require('path');
 const niv = require('npm-install-version');
 
 const config = require('./config.js');
-
-
-config.versions.forEach(version => {
-  if (Array.isArray(version)) return niv.install(...version);
-  niv.install(version);
-});
+config.versions.forEach(version => niv.install(version));
 
 
 fs.readdirSync('fixtures')
@@ -23,8 +18,7 @@ fs.readdirSync('fixtures')
   }))
   .forEach(benchmark => {
     config.versions.forEach(version => {
-      if (Array.isArray(version)) version = version[1];
-      const csjs = require(version);
+      const csjs = niv.require(version);
       benchmark.suite.add(version, () => csjs([benchmark.css]));
     });
     console.log(`\nBenchmarking ${benchmark.name}`);
