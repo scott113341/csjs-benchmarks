@@ -7,6 +7,7 @@ module.exports = {
     // 'csjs@1.0.2',
     // 'csjs@1.0.3',
     'csjs@1.0.4',
+    'rtsao/csjs#master',
     'scott113341/csjs#extract-extends-performance',
   ],
 
