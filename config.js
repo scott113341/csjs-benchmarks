@@ -6,19 +6,15 @@ module.exports = {
     // 'csjs@1.0.1',
     // 'csjs@1.0.2',
     // 'csjs@1.0.3',
-    'csjs@1.0.4',
-    'rtsao/csjs#master',
-    'scott113341/csjs#extract-extends-performance',
+    // 'csjs@1.0.4',
+    'csjs@1.0.5',
+    'csjs@1.0.6',
   ],
 
   // specify fixtures you want to run
   // allFixtures == true takes precedence
   allFixtures: true,
   fixtures: [
-    // '10-rules.css',
-    // '10000-char-comment.css',
-    // 'extends.css',
-    // 'extends-tree.css',
     'simple.css',
   ],
 
