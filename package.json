@@ -9,6 +9,9 @@
   "bugs": "https://github.com/scott113341/csjs-benchmarks/issues",
   "main": "index.js",
   "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
   "devDependencies": {
     "benchmark": "2.1.1",
     "npm-install-version": "5.0.8"
